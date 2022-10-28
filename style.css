@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsla(0, 0%, 100%, 0.75);
+  color: white;
+
+}
+.container {
+display: flex;
+  width: 50%;
+margin: auto;
+
+}
+div {
+padding: 20px;
+}
+.one {
+  background-color: hsl(31, 77%, 52%);
+}
+.one img {
+  padding-bottom: 20px;
+}
+.one h1 {
+  padding-bottom: 10px;
+  font-family:monospace;
+  font-size: 30px;
+  color: hsl(0, 0%, 95%);
+}
+.one p {
+  padding-bottom: 30px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+.two {
+  background-color: hsl(184, 100%, 22%);
+}
+.two img {
+  padding-bottom: 20px;
+}
+.two h1 {
+  padding-bottom: 10px;
+  font-family:monospace;
+  font-size: 30px;
+  color: hsl(0, 0%, 95%);
+}
+.two p {
+  padding-bottom: 10px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.three {
+  background-color: hsl(179, 100%, 13%);
+}
+.three img {
+  padding-bottom: 20px;
+}
+.three h1 {
+  padding-bottom: 10px;
+  font-family:monospace;
+  font-size: 30px;
+  color: hsl(0, 0%, 95%);
+}
+.three p {
+  padding-bottom: 30px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+button {
+  display: flex;
+padding: 10px;
+  border-radius: 30px;
+  width: 150px;
+  justify-content: center;
+  color: hsl(0, 0%, 95%);
+  background-color: transparent;
+border-inline-color: hsl(0, 0%, 95%);
+  border-block-color: hsl(0, 0%, 95%);
+}
+
